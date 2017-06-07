@@ -1,0 +1,23 @@
+Description: remove setuptools_scm dependency
+
+* Be careful with tabs
+
+--- wazo-python-portend-packaging-1.8.0.orig/setup.py
++++ wazo-python-portend-packaging-1.8.0/setup.py
+@@ -14,7 +14,7 @@ description = 'TCP port monitoring utili
+
+ params = dict(
+ 	name=name,
+-	use_scm_version=True,
++	version="1.8",
+ 	author="Jason R. Coombs",
+ 	author_email="jaraco@jaraco.com",
+ 	description=description or name,
+@@ -43,7 +43,6 @@ params = dict(
+ 		],
+ 	},
+ 	setup_requires=[
+-		'setuptools_scm>=1.15.0',
+ 	],
+ 	classifiers=[
+ 		"Development Status :: 5 - Production/Stable",

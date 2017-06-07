@@ -1,0 +1,28 @@
+Source: wazo-python-portend-packaging
+Section: python
+Priority: optional
+Maintainer: Wazo Maintainers <dev@wazo.community>
+Build-Depends: debhelper (>= 9),
+               dh-python,
+               python-all (>= 2.7),
+               python3-all
+Standards-Version: 3.9.6
+X-Python-Version: >= 2.7
+X-Python3-Version: >= 3.4
+Homepage: https://github.com/jaraco/portend
+
+Package: python-portend
+Architecture: all
+Depends: ${misc:Depends},
+         ${python:Depends},
+         python-tempora
+Description: TCP port monitoring utilities
+ .
+
+Package: python3-portend
+Architecture: all
+Depends: ${misc:Depends},
+         ${python3:Depends},
+         python3-tempora
+Description: TCP port monitoring utilities
+ .

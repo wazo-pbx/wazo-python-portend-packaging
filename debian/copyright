@@ -1,0 +1,11 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: portend
+Source: https://github.com/jaraco/portend
+
+Files: *
+Copyright: 2014-2017 Jason R. Coombs
+License: MIT
+
+Files: debian/*
+Copyright: 2016-2017 The Wazo Authors  (see the AUTHORS file)
+License: GPL-3

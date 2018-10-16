@@ -17,7 +17,7 @@ Package: python-portend
 Architecture: all
 Depends: ${misc:Depends},
          ${python:Depends},
-         python-tempora
+         python-tempora (>= 1.8)
 Description: TCP port monitoring utilities
  .
 
@@ -25,6 +25,6 @@ Package: python3-portend
 Architecture: all
 Depends: ${misc:Depends},
          ${python3:Depends},
-         python3-tempora
+         python3-tempora (>= 1.8)
 Description: TCP port monitoring utilities
  .

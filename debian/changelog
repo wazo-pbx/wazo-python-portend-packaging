@@ -1,3 +1,9 @@
+wazo-python-portend-packaging (2.3.0-1~wazo2) wazo-dev-buster; urgency=medium
+
+  * rebuild buster
+
+ -- Wazo Maintainers <dev+pkg@wazo.community>  Tue, 29 Oct 2019 09:03:39 -0400
+
 wazo-python-portend-packaging (2.3.0-1~wazo1) wazo-dev-stretch; urgency=medium
 
   * update version 2.3

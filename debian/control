@@ -20,6 +20,7 @@ Depends: ${misc:Depends},
          python-tempora (>= 1.8)
 Description: TCP port monitoring utilities
  .
+ Use portend to monitor TCP ports for bound or unbound states.
 
 Package: python3-portend
 Architecture: all
@@ -28,3 +29,4 @@ Depends: ${misc:Depends},
          python3-tempora (>= 1.8)
 Description: TCP port monitoring utilities
  .
+ Use portend to monitor TCP ports for bound or unbound states.

@@ -32,3 +32,4 @@ tar -xvf ../wazo-python-portend-packaging_*.orig.tar.gz  --strip 1
 vim <filename.py>
 dpkg-source --commit
 dpkg-buildpackage -us -uc
+
